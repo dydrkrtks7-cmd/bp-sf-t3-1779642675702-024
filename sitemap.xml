@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://bp-sf-t3-1779642675702-024.netlify.app/</loc>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-024/</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bp-sf-t3-1779642675702-024.netlify.app/about.html</loc>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-024/about.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://bp-sf-t3-1779642675702-024.netlify.app/blog.html</loc>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-024/blog.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://bp-sf-t3-1779642675702-024.netlify.app/posts/checklist-002-9243k4.html</loc>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-024/posts/checklist-002-9243k4.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bp-sf-t3-1779642675702-024.netlify.app/posts/compare-001-9243k4.html</loc>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-024/posts/compare-001-9243k4.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bp-sf-t3-1779642675702-024.netlify.app/feed.xml</loc>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-024/posts/guide-001-f3xmbi.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-024/posts/qa-002-f3xmbi.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-024/feed.xml</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
