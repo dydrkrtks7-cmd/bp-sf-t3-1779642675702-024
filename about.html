@@ -1,165 +1,152 @@
 <!DOCTYPE html>
-<html lang="ko-KR">
+<html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>망원 코인노래방 정보 | 요금제 및 이용 가이드</title>
-  <meta name="description" content="망원 코인노래방의 상세 정보 페이지입니다. 기본 요금제, 연장 규정, 결제 수단, 인원별 요금, 시간대별 전략, 지역 교통 정보를 체계적으로 제공합니다.">
-  <meta name="keywords" content="망원 코인노래방, 가격 정보, 코인노래방 요금, 망원 노래방, 정산 방식, 연장, 할인, 인원별 요금, 시간대별 요금">
-  <link rel="canonical" href="https://mangwon-coin-karaoke-note.pickdesk.online/about.html">
-  <!-- 디자인 시스템 메타 -->
-  <meta name="bpaas-design-system" content="brutalist-avantgarde">
-  <meta name="bpaas-design-theme" content="kr-acid-yellow">
-  <!-- OG / Twitter -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="망원 코인노래방 정보 | 요금제 및 이용 가이드">
-  <meta property="og:description" content="망원 코인노래방의 상세 정보 페이지입니다. 기본 요금제, 연장 규정, 결제 수단, 인원별 요금, 시간대별 전략, 지역 교통 정보를 체계적으로 제공합니다.">
-  <meta property="og:url" content="https://mangwon-coin-karaoke-note.pickdesk.online/about.html">
-  <meta property="og:image" content="https://mangwon-coin-karaoke-note.pickdesk.online/og-image.jpg">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="망원 코인노래방 정보 | 요금제 및 이용 가이드">
-  <meta name="twitter:description" content="망원 코인노래방의 상세 정보 페이지입니다. 기본 요금제, 연장 규정, 결제 수단, 인원별 요금, 시간대별 전략, 지역 교통 정보를 체계적으로 제공합니다.">
-  <meta name="twitter:image" content="https://mangwon-coin-karaoke-note.pickdesk.online/twitter-image.jpg">
-  <style>
-    /* 기본 리셋 및 타이포그래피 */
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-    html { font-size: 16px; line-height: 1.6; -webkit-text-size-adjust: 100%; }
-    body { font-family: 'Noto Sans KR', 'Apple Gothic', 'Malgun Gothic', sans-serif; background: #fcf9f0; color: #1e1e1e; margin: 0; }
-    /* airy - 공간 설정 */
-    .v-ico-slr4 { padding: 2.5rem 1.5rem; }
-    /* section gap = 120px */
-    .x-grid-h26m { margin-bottom: 120px; }
-    .x-grid-h26m:last-of-type { margin-bottom: 0; }
-    /* 헤드라인 - serif */
-    h1, h2, h3, h4, .x-btn-nrcx { font-family: 'Times New Roman', Times, serif; }
-    h1 { font-size: 2.8rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 1.2rem; line-height: 1.2; }
-    h2 { font-size: 2.2rem; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 1rem; border-left: 6px solid #b8860b; padding-left: 1rem; }
-    h3 { font-size: 1.6rem; font-weight: 600; margin-bottom: 0.8rem; }
-    /* 링크 스타일 */
-    a { color: #1e1e1e; text-decoration: underline; text-underline-offset: 3px; }
-    a:hover { color: #b8860b; text-decoration-thickness: 2px; }
-    /* 네비게이션 패턴 */
-    .nav-present { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; }
-    .nav-present ul { list-style: none; display: flex; gap: 2rem; margin: 0; }
-    .nav-present a { text-decoration: none; font-weight: 500; font-size: 1.1rem; }
-    .nav-present a:hover { color: #b8860b; }
-    .hamburger-menu { display: none; cursor: pointer; font-size: 1.8rem; background: none; border: none; padding: 0.5rem; }
-    @media (max-width: 768px) {
-      .nav-present ul { display: none; }
-      .nav-present ul.active { display: flex; flex-direction: column; gap: 1rem; position: absolute; top: 80px; left: 0; right: 0; background: #fcf9f0; padding: 2rem; z-index: 10; }
-      .hamburger-menu { display: block; }
-      .x-grid-h26m { margin-bottom: 80px; }
-      h1 { font-size: 2rem; }
-      h2 { font-size: 1.6rem; }
-    }
-    /* 버튼 스타일 */
-    .x-btn-nrcx { display: inline-block; background: #1e1e1e; color: #fcf9f0; padding: 0.75rem 2rem; font-size: 1.2rem; text-decoration: none; border: none; cursor: pointer; transition: 0.2s; }
-    .x-btn-nrcx:hover { background: #b8860b; color: #1e1e1e; }
-    /* 리스트 스타일 */
-    .check-list { list-style: none; padding-left: 0; }
-    .check-list li { padding-left: 1.8rem; position: relative; margin-bottom: 0.6rem; }
-    .check-list li::before { content: "▸"; position: absolute; left: 0; color: #b8860b; font-weight: bold; }
-    /* 인포 카드 */
-    .info-card { background: #ffffff; border: 2px solid #1e1e1e; padding: 2rem; margin-top: 1.5rem; }
-    .info-card strong { color: #b8860b; }
-    /* 푸터 */
-    footer { border-top: 2px solid #1e1e1e; margin-top: 80px; padding-top: 2rem; font-size: 0.9rem; color: #555; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    <title>마포 셔츠룸 정보 | AI트렌드가 만든 새로운 기준</title>
+    <meta name="description" content="마포에서 시작된 AI트렌드 셔츠룸의 모든 것. 강남 셔츠룸과는 다른 혁신적인 시스템, 프리미엄 서비스, 그리고 파격적인 경험. 010-6279-0862">
+    <meta name="keywords" content="마포 셔츠룸, 마포 AI트렌드 셔츠룸, 강남 셔츠룸 정보, 셔츠룸 시스템, 프리미엄 셔츠룸, 마포 유흥 정보">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mangwon-coin-karaoke-note.pickdesk.online/about.html">
+    <meta property="og:title" content="마포 셔츠룸 정보 | AI트렌드가 만든 새로운 기준">
+    <meta property="og:description" content="마포에서 시작된 AI트렌드 셔츠룸의 모든 것. 강남 셔츠룸과는 다른 혁신적인 시스템, 프리미엄 서비스, 그리고 파격적인 경험. 010-6279-0862">
+    <meta property="og:url" content="https://mangwon-coin-karaoke-note.pickdesk.online/about.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="마포 셔츠룸 정보 | AI트렌드가 바꾼 럭셔리">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background: #0a0a0a; color: #f5f5f5; line-height: 1.6; overflow-x: hidden; min-height: 100vh; }
+        a { color: #d4af37; text-decoration: none; transition: color 0.3s ease; }
+        a:hover { color: #f0d060; }
+        img { max-width: 100%; height: auto; }
+        body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(ellipse at 20% 50%, rgba(212, 175, 55, 0.05) 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, rgba(100, 100, 120, 0.03) 0%, transparent 50%); z-index: -1; pointer-events: none; }
+        .wrapper { max-width: 1200px; margin: 0 auto; padding: 0 20px; position: relative; }
+        header { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; border-bottom: 1px solid rgba(212, 175, 55, 0.2); margin-bottom: 40px; position: relative; }
+        .site-title { font-size: 1.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; background: linear-gradient(135deg, #d4af37, #f0d060, #d4af37); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .site-title span { display: block; font-size: 0.7rem; letter-spacing: 4px; color: #888; -webkit-text-fill-color: #888; background: none; }
+        nav { display: flex; gap: 30px; align-items: center; }
+        nav a { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; position: relative; padding-bottom: 5px; }
+        nav a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background: #d4af37; transition: width 0.3s ease; }
+        nav a:hover::after { width: 100%; }
+        nav a:hover { color: #f0d060; }
+        .hamburger { display: none; flex-direction: column; cursor: pointer; padding: 10px; }
+        .hamburger span { width: 28px; height: 2px; background: #d4af37; margin: 4px 0; transition: all 0.3s ease; }
+        
+        .page-hero { text-align: center; padding: 80px 0 40px; }
+        .page-hero h1 { font-size: 3rem; font-weight: 800; letter-spacing: 3px; margin-bottom: 15px; }
+        .page-hero h1 span { background: linear-gradient(135deg, #d4af37, #f0d060); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .page-hero p { font-size: 1.1rem; color: #aaa; max-width: 700px; margin: 0 auto; line-height: 1.8; }
+        
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin: 60px 0; }
+        .info-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(212, 175, 55, 0.15); border-radius: 12px; padding: 35px; backdrop-filter: blur(10px); transition: transform 0.3s ease, border-color 0.3s ease; }
+        .info-card:hover { transform: translateY(-5px); border-color: rgba(212, 175, 55, 0.4); }
+        .info-card h3 { font-size: 1.3rem; margin-bottom: 15px; color: #d4af37; letter-spacing: 1px; }
+        .info-card p { color: #ccc; font-size: 0.95rem; line-height: 1.7; }
+        .info-card .highlight { color: #f0d060; font-weight: 600; }
+        
+        .section-title { text-align: center; font-size: 2rem; letter-spacing: 2px; margin: 80px 0 40px; position: relative; }
+        .section-title::after { content: ''; display: block; width: 60px; height: 2px; background: #d4af37; margin: 15px auto 0; }
+        
+        .system-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin: 40px 0 60px; }
+        .system-item { background: rgba(255, 255, 255, 0.02); border-left: 3px solid #d4af37; padding: 25px; border-radius: 0 8px 8px 0; }
+        .system-item h4 { color: #d4af37; margin-bottom: 10px; font-size: 1.1rem; }
+        .system-item p { color: #aaa; font-size: 0.9rem; }
+        
+        .cta-section { text-align: center; padding: 60px 0; border-top: 1px solid rgba(212, 175, 55, 0.2); margin-top: 40px; }
+        .cta-section h2 { font-size: 2rem; margin-bottom: 20px; }
+        .cta-section .tel-link { display: inline-block; font-size: 2.5rem; font-weight: 800; color: #d4af37; letter-spacing: 3px; padding: 15px 40px; border: 2px solid #d4af37; border-radius: 50px; transition: all 0.3s ease; margin-top: 20px; }
+        .cta-section .tel-link:hover { background: #d4af37; color: #0a0a0a; }
+        
+        @media (max-width: 768px) {
+            .hamburger { display: flex; }
+            nav { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: #0a0a0a; flex-direction: column; padding: 20px; border-bottom: 1px solid rgba(212, 175, 55, 0.2); z-index: 100; }
+            nav.active { display: flex; }
+            .page-hero h1 { font-size: 2rem; }
+            .info-grid { grid-template-columns: 1fr; }
+            .system-list { grid-template-columns: 1fr; }
+            .cta-section .tel-link { font-size: 1.8rem; padding: 12px 25px; }
+        }
+    </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-  <header class="v-ico-slr4">
-    <nav class="nav-present">
-      <div style="font-weight: 700; font-size: 1.4rem;">망원코인노래방</div>
-      <button class="hamburger-menu" aria-label="메뉴 열기" onclick="this.nextElementSibling.classList.toggle('active')">☰</button>
-      <ul>
-        <li><a href="/">가격 정보</a></li>
-        <li><a href="/info/" aria-current="page">정보</a></li>
-        <li><a href="/guide/">이용안내</a></li>
-        <li><a href="/faq/">FAQ</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="wrapper">
+        <header>
+            <div class="site-title">
+                AI TREND
+                <span>SEOUL · GANGNAM · MAPO</span>
+            </div>
+            <div class="hamburger" onclick="this.classList.toggle('active'); document.querySelector('nav').classList.toggle('active')">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <a href="/">홈</a>
+                <a href="/info">정보</a>
+                <a href="/system">시스템</a>
+                <a href="/location">위치</a>
+                <a href="/contact">문의</a>
+            </nav>
+        </header>
 
-  <main class="v-ico-slr4">
-    <!-- 히어로 섹션 -->
-    <section class="x-grid-h26m" style="margin-top: 1rem;">
-      <h1>망원 코인노래방<br>종합 정보 가이드</h1>
-      <p style="font-size: 1.2rem; max-width: 720px;">망원 지역 코인노래방의 요금 체계, 이용 규칙, 시간대별 전략, 주변 시설 정보를 하나로 정리했습니다. 처음 방문하더라도 이 페이지 하나로 이용 전반을 이해할 수 있습니다.</p>
-    </section>
+        <section class="page-hero">
+            <h1>마포 <span>AI트렌드</span> 셔츠룸</h1>
+            <p>강남의 공식은 잊어라. 마포에서 시작된 AI트렌드가 셔츠룸의 기준을 완전히 뒤집었다. 편견 없는 럭셔리, 당신만을 위한 시스템.</p>
+        </section>
 
-    <!-- 섹션 1: 기본 요금제 -->
-    <section class="x-grid-h26m">
-      <h2>기본 요금제 개요</h2>
-      <div class="info-card">
-        <p>코인노래방의 요금은 크게 곡당 결제와 시간제 결제로 나뉩니다. 곡당 요금제는 1곡을 기준으로 비용이 책정되며, 보통 300~500원 선에서 형성됩니다. 짧은 시간 혼자 방문했을 때 부담이 적고, 원하는 곡만 골라서 부를 수 있다는 장점이 있습니다. 반면 시간제 요금제는 10분, 30분, 1시간 단위로 가격이 정해집니다. 장시간 이용할 계획이라면 시간제가 곡당보다 경제적인 경우가 많습니다.</p>
-        <p>망원동 소재 업체들은 대부분 두 가지 방식을 모두 제공하며, 일부는 시간제 구매 시 추가 곡을 무료로 제공하는 프로모션을 진행하기도 합니다. 방문 인원과 예상 이용 시간을 고려해 적절한 요금제를 선택하는 것이 중요합니다. 실제로 30분 시간제를 기준으로 2인이 이용할 경우 1인당 부담액이 곡당보다 낮아지는 사례가 일반적입니다.</p>
-      </div>
-    </section>
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>📍 마포의 새로운 아이콘</h3>
+                <p>마포는 더 이상 강남의 뒤꿈치가 아니다. <span class="highlight">AI트렌드</span>가 이곳에 셔츠룸 문화의 새로운 축을 세웠다. 홍대입구와 합정 사이, 접근성은 강남을 압도한다. 주차장은 100대, 내부는 300평. 규모부터 다르다.</p>
+            </div>
+            <div class="info-card">
+                <h3>🤖 AI 매칭 시스템</h3>
+                <p>니 취향을 AI가 분석한다. 면접 한 번으로 끝? 아니다. <span class="highlight">실시간 데이터</span>로 매칭 정확도 94%를 달성했다. 같은 셔츠룸인데 결과가 다른 이유가 여기 있다. 시스템이 너를 위해 일한다.</p>
+            </div>
+            <div class="info-card">
+                <h3>💎 프리미엄 멤버십</h3>
+                <p>일반 입장은 없다. <span class="highlight">VIP 멤버십</span>만이 이 공간의 문을 연다. 연회비 500만원, 한정 50명. 대기자는 200명을 넘겼다. 희소성은 곧 가치다. 너는 어떤 선택을 할까?</p>
+            </div>
+            <div class="info-card">
+                <h3>🔞 19금 럭셔리</h3>
+                <p>여기는 유치한 놀이터가 아니다. 성인만의 진짜 럭셔리를 원한다면 와라. <span class="highlight">프라이빗 스위트</span>, 24K 골드 디너, 개인 바텐더. 모든 디테일이 19금 이상의 품격을 증명한다.</p>
+            </div>
+        </div>
 
-    <!-- 섹션 2: 연장 및 조기 종료 -->
-    <section class="x-grid-h26m">
-      <h2>연장 및 조기 종료 규정</h2>
-      <p>대부분의 망원 코인노래방은 기본 이용 시간이 끝난 후 10분 단위로 연장이 가능합니다. 연장 시 추가 코인을 구매하거나 잔여 시간을 연장하는 방식이 일반적입니다. 일부 업체는 최초 결제 시 사용하지 않은 시간을 다음 방문으로 이월할 수 있는 포인트 제도를 운영하기도 합니다. 단, 이월 가능 여부와 조건은 업체마다 다르므로 이용 전에 확인하는 것이 안전합니다.</p>
-      <p>조기 종료를 원할 경우, 남은 코인이나 시간에 대한 환불은 원칙적으로 어렵습니다. 업체에 따라 잔여분을 일부 포인트로 전환해 주거나 무료 연장 크레딧으로 적립해 주는 곳도 있으나, 이 역시 사전에 정책을 묻는 것이 좋습니다. 기록 보관 측면에서는 녹음 파일을 USB나 클라우드로 저장할 수 있는지 여부도 함께 확인하면 후회 없는 이용이 가능합니다.</p>
-    </section>
+        <h2 class="section-title">AI트렌드 시스템</h2>
+        <div class="system-list">
+            <div class="system-item">
+                <h4>🧠 스마트 큐레이션</h4>
+                <p>AI가 너의 과거 방문 기록, 선호 스타일, 심지어 대화 패턴까지 학습한다. 매번 새로운 추천이 아니라, 너에게 딱 맞는 단 한 명을 찾아준다.</p>
+            </div>
+            <div class="system-item">
+                <h4>📊 실시간 피드백</h4>
+                <p>매칭 후 10초 안에 피드백이 시스템에 반영된다. 만족도 90% 이하면 즉시 재매칭. 시간 낭비는 없다. 결과로 말한다.</p>
+            </div>
+            <div class="system-item">
+                <h4>🛡️ 완벽한 프라이버시</h4>
+                <p>블록체인 기반 방문 기록. CCTV는 없지만, AI 센서가 모든 동선을 감시한다. 보안은 선택이 아니라 기본이다. 너의 신분은 영원히 비밀로.</p>
+            </div>
+        </div>
 
-    <!-- 섹션 3: 정산 방식과 결제 수단 -->
-    <section class="x-grid-h26m">
-      <h2>정산 방식과 결제 수단</h2>
-      <p>초기 정산은 카운터에서 원하는 요금제를 선택하고 결제한 뒤 코인이나 시간권을 지급받는 방식이 전통적입니다. 최근에는 키오스크가 도입된 업체가 늘어나면서 비대면 결제가 가능해졌습니다. 키오스크에서는 메뉴 선택, 할인 적용, 간편결제까지 한 번에 처리할 수 있어 대기 시간이 줄었습니다.</p>
-      <p>결제 수단으로 현금, 신용카드, 체크카드는 기본이며, 카카오페이·네이버페이·토스 등 간편결제를 지원하는 곳이 대부분입니다. 일부 매장에서는 망원 지역화폐나 제로페이도 사용할 수 있습니다. 정산이 완료된 후에는 화면에 남은 시간이나 곡 수가 표시되며, 잔여량이 얼마 남지 않았을 때 알림이 울리는 시스템이 보편적입니다.</p>
-    </section>
+        <div class="cta-section">
+            <h2>지금 바로 <span style="color:#d4af37;">도전</span>하라</h2>
+            <p style="color:#aaa; margin-bottom: 20px;">마포의 AI트렌드, 강남을 넘어서다. 상담은 10분, 경험은 영원히.</p>
+            <a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a>
+        </div>
+    </div>
 
-    <!-- 섹션 4: 인원별 추천 요금제 -->
-    <section class="x-grid-h26m">
-      <h2>인원별 추천 요금제</h2>
-      <div class="info-card">
-        <h3>1~2인 방문</h3>
-        <p>적은 인원으로 방문할 때는 곡당 요금제가 실용적입니다. 1인이 10곡을 부른다고 가정하면 비용이 3,000~5,000원 수준으로 부담이 적습니다. 특히 연습 목적이나 짧은 시간 이용하려는 경우 시간제보다 곡당이 유리합니다. 두 명이 번갈아 노래를 부를 때도 곡당 요금제가 직관적입니다.</p>
-        <h3>3인 이상 그룹</h3>
-        <p>3인 이상 모임이라면 시간제 요금제를 권장합니다. 1시간 시간제를 인원수로 나누면 1인당 비용이 크게 낮아집니다. 그룹 특성상 대기 시간이 발생하므로 여유 있게 1시간 이상을 예약하는 것이 좋습니다. 인원이 5인을 넘는다면 두 개의 룸을 분리해서 사용하는 전략도 고려할 만합니다.</p>
-      </div>
-    </section>
-
-    <!-- 섹션 5: 시간대별 이용 전략 -->
-    <section class="x-grid-h26m">
-      <h2>시간대별 이용 전략</h2>
-      <p>오전 10시부터 낮 12시까지는 대부분의 업체가 오픈 시간 할인이나 조조 요금을 적용합니다. 이 시간대는 이용객이 적어 한적하게 노래를 즐기고 싶은 방문객에게 알맞습니다. 특히 주말에는 이른 시간을 선택하면 피크 타임의 혼잡을 피할 수 있습니다.</p>
-      <p>심야 시간대(22시 이후)는 추가 할인이나 심야 정액제가 적용되는 경우가 많습니다. 늦은 시간까지 여유롭게 이용하려는 사람들에게 적합하며, 일부 업체는 심야 시간에 음료나 간식을 제공하기도 합니다. 단, 심야 운영 여부와 할인율은 업체마다 상이하므로 방문 전에 반드시 확인해야 합니다.</p>
-    </section>
-
-    <!-- 섹션 6: 망원동 지역 정보 -->
-    <section class="x-grid-h26m">
-      <h2>망원동 지역 정보</h2>
-      <p>망원동은 지하철 6호선 망원역과 가깝고, 여러 버스 노선이 지나 교통이 편리합니다. 망원역 1번 출구에서 도보 3~5분 거리에 코인노래방이 밀집되어 있어 접근성이 높습니다. 자차를 이용할 경우 업체마다 주차 공간이 협소하거나 별도 주차장을 이용해야 할 수 있으므로 사전에 주차 가능 여부를 문의하는 것이 좋습니다.</p>
-      <p>주변에는 망원시장, 망원한강공원, 다양한 카페와 음식점이 있어 노래방 이용 전후로 연계하기 좋습니다. 특히 망원시장 내 튀김·떡볶이 골목은 저렴한 가격에 간단히 식사하기 좋은 장소로 알려져 있습니다. 한강공원까지는 도보 15분 거리로, 야경을 감상한 뒤 방문하기에도 적합합니다.</p>
-    </section>
-
-    <!-- 섹션 7: FAQ -->
-    <section class="x-grid-h26m">
-      <h2>자주 묻는 질문</h2>
-      <div class="info-card">
-        <h3>Q. 기본 이용 시간과 연장 단위는 어떻게 되나요?</h3>
-        <p>A. 업체마다 기준이 다르지만, 일반적으로 30분 또는 1시간 단위로 첫 이용을 시작하고, 10분 단위로 연장이 가능합니다. 연장 버튼이 리모컨이나 패널에 별도로 마련되어 있습니다.</p>
-        <h3>Q. 코인은 어떻게 구매하나요?</h3>
-        <p>A. 카운터나 키오스크에서 원하는 곡 수 또는 시간을 선택하고 결제하면 코인이나 시간권이 충전됩니다. 현금·카드·간편결제 등 다양한 수단을 사용할 수 있습니다.</p>
-        <h3>Q. 미성년자도 이용할 수 있나요?</h3>
-        <p>A. 업체에 따라 상이하나, 보호자 동반 시 주간 이용이 가능한 곳이 많습니다. 밤 10시 이후에는 미성년자 출입이 제한될 수 있으므로 사전 확인이 필요합니다.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="v-ico-slr4">
-    <p>© 2025 망원코인노래방 정보 페이지. 실제 업체와 다를 수 있으니 이용 전 해당 업체에 확인하시기 바랍니다.</p>
-    <p>본 페이지는 정보 제공 목적으로 운영되며, 특정 업체를 보증하지 않습니다.</p>
-  </footer>
-
-  <!-- 간단한 햄버거 메뉴 토글 스크립트 -->
-  <script>
-    document.querySelector('.hamburger-menu')?.addEventListener('click', function(){
-      const nav = document.querySelector('.nav-present ul');
-      if(nav) nav.classList.toggle('active');
-    });
-  </script>
+    <script>
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('nav').classList.remove('active');
+                document.querySelector('.hamburger').classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
