@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (1/2) · sf-t3-1779642675702-024</title>
+  <meta name="description" content="sf-t3-1779642675702-024에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://mangwon-coin-karaoke-note.pickdesk.online/posts.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background: #0a0a0a; color: #f5f5f5; line-height: 1.6; overflow-x: hidden; min-height: 100vh; }
+ a { color: #d4af37; text-decoration: none; transition: color 0.3s ease; }
+ a:hover { color: #f0d060; }
+ img { max-width: 100%; height: auto; }
+ body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(ellipse at 20% 50%, rgba(212, 175, 55, 0.05) 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, rgba(100, 100, 120, 0.03) 0%, transparent 50%); z-index: -1; pointer-events: none; }
+ .wrapper { max-width: 1200px; margin: 0 auto; padding: 0 20px; position: relative; }
+ header { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; border-bottom: 1px solid rgba(212, 175, 55, 0.2); margin-bottom: 40px; position: relative; }
+ .site-title { font-size: 1.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; background: linear-gradient(135deg, #d4af37, #f0d060, #d4af37); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+ .site-title span { display: block; font-size: 0.7rem; letter-spacing: 4px; color: #888; -webkit-text-fill-color: #888; background: none; }
+ nav { display: flex; gap: 30px; align-items: center; }
+ nav a { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; position: relative; padding-bottom: 5px; }
+ nav a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background: #d4af37; transition: width 0.3s ease; }
+ nav a:hover::after { width: 100%; }
+ nav a:hover { color: #f0d060; }
+ .hamburger { display: none; flex-direction: column; cursor: pointer; padding: 10px; }
+ .hamburger span { width: 28px; height: 2px; background: #d4af37; margin: 4px 0; transition: all 0.3s ease; }
+ 
+ .page-hero { text-align: center; padding: 80px 0 40px; }
+ .page-hero h1 { font-size: 3rem; font-weight: 800; letter-spacing: 3px; margin-bottom: 15px; }
+ .page-hero h1 span { background: linear-gradient(135deg, #d4af37, #f0d060); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+ .page-hero p { font-size: 1.1rem; color: #aaa; max-width: 700px; margin: 0 auto; line-height: 1.8; }
+ 
+ .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin: 60px 0; }
+ .info-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(212, 175, 55, 0.15); border-radius: 12px; padding: 35px; backdrop-filter: blur(10px); transition: transform 0.3s ease, border-color 0.3s ease; }
+ .info-card:hover { transform: translateY(-5px); border-color: rgba(212, 175, 55, 0.4); }
+ .info-card h3 { font-size: 1.3rem; margin-bottom: 15px; color: #d4af37; letter-spacing: 1px; }
+ .info-card p { color: #ccc; font-size: 0.95rem; line-height: 1.7; }
+ .info-card .highlight { color: #f0d060; font-weight: 600; }
+ 
+ .section-title { text-align: center; font-size: 2rem; letter-spacing: 2px; margin: 80px 0 40px; position: relative; }
+ .section-title::after { content: ''; display: block; width: 60px; height: 2px; background: #d4af37; margin: 15px auto 0; }
+ 
+ .system-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin: 40px 0 60px; }
+ .system-item { background: rgba(255, 255, 255, 0.02); border-left: 3px solid #d4af37; padding: 25px; border-radius: 0 8px 8px 0; }
+ .system-item h4 { color: #d4af37; margin-bottom: 10px; font-size: 1.1rem; }
+ .system-item p { color: #aaa; font-size: 0.9rem; }
+ 
+ .cta-section { text-align: center; padding: 60px 0; border-top: 1px solid rgba(212, 175, 55, 0.2); margin-top: 40px; }
+ .cta-section h2 { font-size: 2rem; margin-bottom: 20px; }
+ .cta-section .tel-link { display: inline-block; font-size: 2.5rem; font-weight: 800; color: #d4af37; letter-spacing: 3px; padding: 15px 40px; border: 2px solid #d4af37; border-radius: 50px; transition: all 0.3s ease; margin-top: 20px; }
+ .cta-section .tel-link:hover { background: #d4af37; color: #0a0a0a; }
+ 
+ @media (max-width: 768px) {
+ .hamburger { display: flex; }
+ nav { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: #0a0a0a; flex-direction: column; padding: 20px; border-bottom: 1px solid rgba(212, 175, 55, 0.2); z-index: 100; }
+ nav.active { display: flex; }
+ .page-hero h1 { font-size: 2rem; }
+ .info-grid { grid-template-columns: 1fr; }
+ .system-list { grid-template-columns: 1fr; }
+ .cta-section .tel-link { font-size: 1.8rem; padding: 12px 25px; }
+ }
+ </style>
+  <meta property="og:title" content="글 목록 (1/2) · sf-t3-1779642675702-024">
+  <meta property="og:description" content="sf-t3-1779642675702-024에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://mangwon-coin-karaoke-note.pickdesk.online/posts.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <div class="site-title">
+ AI TREND
+ <span>SEOUL · GANGNAM · MAPO</span>
+ </div>
+ <div class="hamburger" onclick="this.classList.toggle('active'); document.querySelector('nav').classList.toggle('active')">
+ 
+ 
+ 
+ </div>
+ <nav>
+ <a href="/">홈</a>
+ <a href="/info">정보</a>
+ <a href="/system">시스템</a>
+ <a href="/location">위치</a>
+ <a href="/contact">문의</a>
+ </nav>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 33개 · 1/2 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/checklist-002-9243k4.html">강남 셔츠룸 선택 전에 확인할 체크리스트와 실패 사례</a>
+        <p class="post-item__summary">강남 셔츠룸 이용을 계획하고 있다면 가장 먼저 고려해야 할 점은 해당 업체의 운영 방식과 투명성입니다. 즐거운 시간을 보내기 위해 방문했더라도 사전에 정보를 충분히 확인하지 않으면 예상치 못한 문제</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/compare-001-9243k4.html">강남 셔츠룸</a>
+        <p class="post-item__summary">최근 마포 지역의 비즈니스 커뮤니티와 창의적인 산업 종사자들 사이에서는 강남 셔츠룸과 같은 유흥 문화가 어떻게 현대적인 AI 트렌드와 결합할 수 있는지에 대한 논의가 활발합니다. 이러한 업종은 과거</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260705-1280.html">강남 셔츠룸 지역 정보와 상세 안내 비교 노트</a>
+        <p class="post-item__summary">마포의 강남 셔츠룸를 비교할 때 가장 피해야 할 것은 한 문장짜리 홍보 문구만 믿는 일입니다. 실제로 도움이 되는 글은 조건을 나누고, 읽는 사람이 스스로 판단할 여지를 남깁니다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6865.html">마포 지역의 매력과 함께 찾는 생활 편의시설들</a>
+        <p class="post-item__summary">마포는 서울의 중심부에서 약간 벗어나 있으면서도 접근성이 뛰어난 지역입니다. 강변북로를 따라 한강공원이 펼쳐져 있고, 주말 산책로로 많은 주민들이 찾는 곳이죠. 이 지역은 주택가와 상업지구가 적절히</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6866.html">마포 지역 문화와 라이프스타일 공간 가이드</a>
+        <p class="post-item__summary">마포는 서울의 중심부에 위치하면서도 독특한 문화적 정체성을 유지하고 있는 지역입니다. 한강 근처의 자연환경과 도심의 활기가 어우러져 있어서 많은 사람들이 찾는 장소입니다. 이 지역은 세대를 가리지 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6867.html">마포에서 즐기는 서울의 다양한 문화와 생활의 발견</a>
+        <p class="post-item__summary">마포는 서울의 중심에서 벗어나지 않으면서도 독특한 매력을 지닌 지역입니다. 한강변의 자연환경과 현대적인 상업시설이 조화를 이루고 있으며, 작은 골목부터 대형 복합시설까지 다양한 계층의 방문객들을 받</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6868.html">마포 지역의 문화와 여가의 중심지 탐방</a>
+        <p class="post-item__summary">마포는 서울의 여러 지역 중에서도 독특한 문화적 정체성을 지닌 곳입니다. 오랜 역사와 최신 트렌드가 공존하는 이 지역은 방문객들에게 다양한 경험을 제공합니다. 특히 주말과 평일을 가리지 않고 많은 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6869.html">강남 셔츠룸 관련 데이터 분석으로 본 마포 유흥 시장의 최근 경향</a>
+        <p class="post-item__summary">최근 유흥 업계에서는 AI 트렌드 분석을 적극 활용해 소비자 선호도와 방문 패턴을 파악하는 사례가 빠르게 늘어나고 있다. 특히 강남 셔츠룸 관련 데이터를 면밀히 살펴보면, 단순한 공간 경험이나 인테</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6870.html">셔츠룸 예약 전 꼭 확인해야 할 것들</a>
+        <p class="post-item__summary">셔츠룸 문화가 점점 대중화되면서 관심 있는 사람들이 증가하고 있습니다. 하지만 새로운 서비스에 익숙하지 않은 소비자들이 예약 과정에서 실수하는 경우가 많습니다. 합리적인 가격과 투명한 서비스를 제공</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6871.html">강남 셔츠룸에서 만나는 AI 패션 체험</a>
+        <p class="post-item__summary">현대 패션 산업에서는 인공지능 기술을 활용하여 사용자 맞춤형 스타일링 솔루션을 제공하는 시도가 다각도로 이루어지고 있습니다. 특히 최근에는 디지털 스타일 컨설팅 시스템을 접목하여 각자의 체형과 스타</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6872.html">마포의 숨은 보석, 홍대 골목길에서 만나는 로컬 문화</a>
+        <p class="post-item__summary">마포 지역은 서울의 중심부에 위치하면서도 독특한 문화와 예술이 어우러진 곳입니다. 홍대부터 상수동까지 이어지는 거리에는 수십 년을 지켜온 가게들과 새로 생겨나는 카페, 갤러리, 식당들이 공존하고 있</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6873.html">마포의 숨은 매력과 지역 기업 문화를 발견하다</a>
+        <p class="post-item__summary">서울의 중심부에 위치한 마포는 한강의 자연미와 도시의 활기가 조화를 이루는 특별한 지역이다. 홍대 앞부터 합정동까지 이어지는 거리에는 개성 있는 카페, 음식점, 그리고 다양한 생활 서비스업체들이 모</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6874.html">강남 셔츠룸, AI 트렌드가 변화시킨 정보 탐색의 흐름</a>
+        <p class="post-item__summary">최근 AI 기술의 발전은 다양한 산업군에서 정보를 찾고 비교하는 방식을 근본적으로 바꾸고 있다. 오프라인 기반 엔터테인먼트 업종에서도 이런 흐름이 뚜렷하게 나타난다. 소비자들은 단순 검색 결과를 넘</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6875.html">마포와 홍대에서 즐기는 모임 문화: 가라오케를 중심으로</a>
+        <p class="post-item__summary">마포 지역은 서울에서 가장 역동적인 엔터테인먼트 허브 중 하나로 알려져 있습니다. 홍대입구와 합정 일대는 20대부터 40대까지 다양한 연령층이 모여 문화생활을 즐기는 공간으로 자리 잡았습니다. 이곳</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6876.html">강남 셔츠룸, AI가 주도하는 패션의 미래</a>
+        <p class="post-item__summary">강남 셔츠룸은 AI 트렌드를 선보이는 패션 공간이다. 독창적 컬렉션이 모여 새로운 영감을 준다. 매장에서 인공지능이 제안하는 옷어링을 체험할 수 있다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6877.html">AI 트렌드가 바꾸는 강남 셔츠룸의 풍경</a>
+        <p class="post-item__summary">마포 지역에서도 강남 셔츠룸과 유사한 콘셉트의 고급 프라이빗 공간들이 늘어나고 있다. 과거에는 지인 소개와 경험 위주의 마케팅이 주를 이뤘지만, 요즘은 정보의 투명성이 중요해지면서 업계 분위기가 달</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6878.html">마포 지역 디지털 비즈니스 성장의 중심지</a>
+        <p class="post-item__summary">마포는 서울의 주요 비즈니스 구역으로서 많은 소상공인들과 스타트업들이 집중되어 있습니다. 합정역과 홍대입구역을 중심으로 한 이 지역은 카페, 갤러리, 디지털 에이전시 등 다양한 업종이 공존하며 활발</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-6879.html">AI가 삶을 재정의하는 강남 셔츠룸, 색다른 패션의 터전</a>
+        <p class="post-item__summary">서울 강남에 뻗어 있는 ‘강남 셔츠룸’은 AI가 선도하는 패션 스튜디오로 자리잡았다. 손재주가 아닌 데이터를 기반으로 옷을 만들어, 고객이 묻는 '오늘 무슨 스타일이 필요해?'를 실시간으로 해답한다</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0187.html">강남 셔츠룸 분위기와 맞먹는 망원 노래방 추천정보 필수 체크</a>
+        <p class="post-item__summary">망원 지역에서 노래방을 선택할 때는 음향 장비의 성능, 청결도, 그리고 공간의 규모가 필수적인 충족 조건으로 꼽힙니다. 마치 강남 셔츠룸 시설을 고를 때처럼 까다로운 기준을 적용해야 후회 없는 시간</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0188.html">강남 셔츠룸 수준의 품격을 갖춘 공덕 셔츠룸 추천정보 탐색</a>
+        <p class="post-item__summary">여러분은 평소 휴식을 취하거나 특별한 모임을 계획할 때 어떤 기준으로 업체를 선택하시나요? 단순히 지인의 추천에 의존하기보다, 강남 셔츠룸 같은 고품격 공간과 비교했을 때 손색없는지를 먼저 고민해 </p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <span class="pager__current">1</span>
+      <a class="pager__link" href="posts-2.html">2</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
