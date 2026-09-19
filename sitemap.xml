@@ -16,6 +16,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://mangwon-coin-karaoke-note.pickdesk.online/posts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://mangwon-coin-karaoke-note.pickdesk.online/posts/checklist-002-9243k4.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -62,11 +67,6 @@
   </url>
   <url>
     <loc>https://mangwon-coin-karaoke-note.pickdesk.online/posts/guide-001-f3xmbi.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-coin-karaoke-note.pickdesk.online/posts.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
